@@ -1,0 +1,70 @@
+[data-bs-theme="dark"] body {
+  background: #12161c;
+  color: #d5d9e0;
+}
+
+[data-bs-theme="dark"] a {
+  color: #e6ebef;
+}
+
+[data-bs-theme="dark"] a:hover {
+  color: white;
+}
+
+[data-bs-theme="dark"] #header {
+  background: #12161c;
+  border-bottom-color: #243040;
+}
+
+[data-bs-theme="dark"] .navbar a,
+[data-bs-theme="dark"] .navbar a:focus {
+  color: white;
+}
+
+[data-bs-theme="dark"] .navbar a:hover {
+  color: rgb(217, 188, 152);
+}
+
+[data-bs-theme="dark"] .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+[data-bs-theme="dark"] #hero:before {
+  background: rgba(18, 22, 28, 0.85);
+}
+
+[data-bs-theme="dark"] #hero h1 {
+  color: #e8f1fa;
+}
+
+[data-bs-theme="dark"] #hero h2 {
+  color: #aeb6c2;
+}
+
+[data-bs-theme="dark"] .section-bg {
+  background-color: #181d25;
+}
+
+[data-bs-theme="dark"] .section-title h2 {
+  color: #cfe4f7;
+}
+
+[data-bs-theme="dark"] #technologies {
+  background: #212529;
+}
+
+[data-bs-theme="dark"] #footer {
+  background: #181d25;
+  color: #aeb6c2;
+}
+
+[data-bs-theme="dark"] .btn-primary {
+  background-color: rgb(217, 188, 152);
+  border-color: rgb(217, 188, 152);;
+  color: black;
+}
+
+[data-bs-theme="dark"] .btn-primary:hover {
+  background-color: rgb(196, 174, 162);
+  border-color: rgb(217, 188, 152);;
+}
