@@ -5,12 +5,12 @@ body {
 }
 
 a {
-  color: #2487ce;
+  color: #80146a;
   text-decoration: none;
 }
 
 a:hover {
-  color: #469fdf;
+  color: #b51010;
   text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  background: #1c4484;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -36,7 +36,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #3e9bdd;
+  background: #4a82aa;
   color: #fff;
 }
 
@@ -51,8 +51,8 @@ a:hover {
 }
 
 .btn-primary:hover{
-  background-color: rgb(196, 174, 162);
-  border-color: rgb(217, 188, 152);;
+  background-color: rgba(6, 97, 171, 0.978);
+  border-color: rgb(4, 39, 102);;
 }
 
 /* header */
@@ -86,8 +86,19 @@ a:hover {
 
 .navbar a,
 .navbar a:focus {
-  color: #16507b;
+  color: #175D80;
   transition: 0.3s;
+}
+/*
+hamurger
+*/
+@media (max-width: 576px) {
+  #header .logo { font-size: 18px; }
+  .navbar-toggler { padding: 0.25rem 0.5rem; }
+}
+
+@media (max-width: 400px) {
+  #header .logo { font-size: 16px; }
 }
 
 /* hero */
@@ -184,7 +195,7 @@ section {
 
 /* techs */
 #technologies {
-  background: #2487ce;
+  background: #4a82aa;
   background-size: cover;
   padding: 60px 0;
   text-align: center;
