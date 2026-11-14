@@ -159,8 +159,8 @@ var translations = {
     projects_title: "Projekti", sort_label: "Sortiraj:",
     sort_default: "Podrazumevano", sort_asc: "Godina rastuće", sort_desc: "Godina opadajuće",
     about_title: "O meni",
-    about_p1: "Studentkinja sam završne godine Visoke škole strukovnih studija za informacione i komunikacione tehnologije (ICT) u Beogradu. Ambiciozna sam i stalno težim ličnom i profesionalnom razvoju. Motivisana sam da učim i sticanjem novih znanja unapređujem svoje veštine.",
-    about_p2: "Imam iskustvo u izradi projekata na fakultetu koji uključuju i frontend i backend tehnologije, uključujući JavaScript, kao i rad sa relacionim bazama podataka i PHP-om.",
+    about_p1: "Završila sam Visoku ICT školu u Beogradu, smer Internet tehnologije, modul Informacione tehnologije. Ambiciozna sam osoba koja teži ličnom i profesionalnom usavršavanju. Motivisana sam da učim i stičem nova znanja kako bih unapredila svoje veštine.",
+    about_p2: "Imam iskustvo u izradi projekata koji uključuju i frontend i backend tehnologije, uključujući JavaScript, kao i rad sa relacionim bazama podataka i PHP-om.",
     email_label: "E-mail: ", cv_btn: "Preuzmi moj CV", rights: "Sva prava zadržana.",
     card_year: "godina", card_visit: "Poseti sajt", card_more: "Vidi više",
     modal_desc: "Opis", modal_langs: "Tehnologije", modal_responsive: "Responzivan", modal_year: "Godina",
@@ -200,7 +200,7 @@ function applyLanguage() {
 function applyTheme() {
   document.documentElement.setAttribute("data-bs-theme", currentTheme)
   document.querySelector("#themeBtn i").className =
-    currentTheme === "light" ? "bi bi-moon-stars-fill" : "bi bi-sun-fill"
+    currentTheme === "light" ? "bi bi-moon-fill" : "bi bi-sun-fill"
 }
 
 document.querySelector("#langBtn").addEventListener("click", () => {
