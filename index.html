@@ -28,24 +28,26 @@
 <body data-bs-spy="scroll" data-bs-target="#mainNav">
   <header id="header" class=" navbar navbar-expand-lg fixed-top">
     <nav id="mainNav" class="container">
-      <a class="navbar-brand logo" href="#">Hristina Smiljanic</a>
-      <div class="bd-navbar-toggle">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <div class="navbar-nav align-items-lg-center">
-          <a class="nav-link active" aria-current="page" href="#hero" data-prevod="nav_home">Home</a>
-          <a class="nav-link" href="#projects" data-prevod="nav_projects">Projects</a>
-          <a class="nav-link" href="#about" data-prevod="nav_about">About</a>
-        </div>
-      </div>
-      <button id="langBtn" type="button" class="btn btn-outline-primary btn-sm ms-lg-3 my-2 my-lg-0">SR</button>
-<button id="themeBtn" type="button" class="btn btn-outline-primary btn-sm ms-lg-2 mb-2 mb-lg-0">
-  <i class="bi bi-moon-stars-fill"></i>
-</button>
-    </nav>
+  <a class="navbar-brand logo" href="#">Hristina Smiljanic</a>
+
+  <div class="d-flex align-items-center gap-3 ms-auto ms-lg-3 order-lg-last">
+    <button id="langBtn" type="button" class="btn btn-outline-primary btn-sm">SR</button>
+    <button id="themeBtn" type="button" class="btn btn-outline-primary btn-sm">
+      <i class="bi bi-moon-fill"></i>
+    </button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <div class="navbar-nav align-items-lg-center">
+      <a class="nav-link active" aria-current="page" href="#hero" data-prevod="nav_home">Home</a>
+      <a class="nav-link" href="#projects" data-prevod="nav_projects">Projects</a>
+      <a class="nav-link" href="#about" data-prevod="nav_about">About</a>
+    </div>
+  </div>
+</nav>
   </header>
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
